@@ -1,0 +1,26 @@
+
+
+#not-checked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+#checked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+#not-clicked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+#clicked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+button {
+    width: 100px;  height: 50px;
+    margin-right: 20px;
+}
