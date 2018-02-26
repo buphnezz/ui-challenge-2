@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body section p {
+  width: 200px;
+}
+
+body section input {
+  height: 100%;
+  width: 100%;
+}
+
+section select option:nth-child(1) {
+  background: rgb(180, 170, 170);
+}
+
+section select option:nth-child(2) {
+  background: grey;
+}
+
+section select option:nth-child(3) {
+  background: rgb(180, 170, 170);
+}
+
+section select option:nth-child(4) {
+  background: grey;
+}
+
+section select option:nth-child(5) {
+  background: rgb(180, 170, 170);
+}
+#enter-valid-message {
+  color: red;
+  float: right;
+  width: 200px;
+}
+
+span.icon a:link, span.icon a:visited {
+  display: block;
+  text-indent: -9999px;
+}
+
+span.checked a:link, span.checked a:checked {
+  width: 120px;
+  height: 120px;
+  background: image(sprites/form-elements-sprite.png);
+}
+
+span.checked a:hover {
+  background-position: 0 -120px;
+}
+
+select {
+  height: 100%;
+  width: 100%;
+}
+.email {
+  margin-top: 100px;
+}
+
+.text-input {
+  background-color: green;
+  min-width: 200px;
+}
+
+section {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#not-checked {
+  height: 200px;
+  width: 50%;
+  background-position: -5px -5px;
+}
+
+#checked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+#not-clicked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+#clicked {
+  height: 200px;
+  background-position: -5px -5px;
+}
+
+button {
+    width: 100px;  height: 50px;
+    margin-right: 20px;
+}

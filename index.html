@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UI Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+  <section>
+    <p>text input</p>
+    <label class="text-input"></label>
+    <input type="text" placeholder="placeholder text">
+    <p>text input w/ validation error</p>
+    <label class="text-input "></label>
+    <input type="text" placeholder="placeholder text">
+     <p id="enter-valid-message">please enter a valid username</p>
+  </section>
+  <section>
+    <p>select box</p>
+    <select>
+      <option>please select an option...</option>
+    </select>
+  </section>
+  <section id="multi-choice-dropdown">
+    <p>select box - open</p>
+    <select name="select-box-open">
+      <option value="option1">option 1</option>
+      <option value="option2">option 2</option>
+      <option value="option3">option 3</option>
+      <option value="option4">option 4</option>
+      <option value="option5">option 5</option>
+    </select>
+  </section>
+  <section>
+    <p>checkbox</p>
+    <span class="unchecked box"><a href="#">UnChecked Box</a></span>
+    <span class="checked box">
+      <a href="#">Checked Box</a>
+    </span>
+  </section>
+  <section>
+    <p>radio</p>
+    <img id="not-clicked icon" src="sprites/form-elements-sprite.png">
+    <img id="clicked icon" src="sprites/form-elements-sprite.png">
+  </section>
+  <section>
+    <p>buttons</p>
+    <button id="not-submitted" type="submit">submit
+    <button id="submitted" type="sumbit">submit
+  </section>
+</body>
+
+</html>
