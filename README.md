@@ -41,3 +41,30 @@ The instructions on the comp page say to do the styling with JavaScript; it is r
 - Style the page to reflect the comp image provided as closely as possible; but, feel free to leave out the paragraph of instructions.
 - You need not be concerned with responsiveness or mobile layout on this assignment.
 - There are no absolute right or wrong answers... just do your best.
+
+
+Sources I used to make this assignment look this bad.....:
+https://www.w3schools.com/html/html_form_elements.asp
+
+https://stackoverflow.com/questions/17943475/how-to-open-option-list-of-html-select-tag-on-onfocus
+
+https://www.w3schools.com/tags/att_option_value.asp
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_option_value
+
+https://stackoverflow.com/questions/7374001/how-to-edit-the-size-of-the-submit-button-on-a-form
+
+https://www.w3schools.com/css/css_navbar.asp
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical
+
+https://stackoverflow.com/questions/21506276/how-do-i-make-the-text-box-bigger-in-html-css
+
+https://stackoverflow.com/questions/24599887/css-drop-down-menu-with-different-color
+
+https://css-tricks.com/spriting-img/
+
+https://www.w3schools.com/css/css_image_sprites.asp
+
+W3School CSS Image Srites Tutorial
+https://www.youtube.com/watch?v=WRZEwMo2W80
