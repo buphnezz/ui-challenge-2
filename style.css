@@ -37,6 +37,21 @@ section select option:nth-child(5) {
   width: 200px;
 }
 
+span.icon a:link, span.icon a:visited {
+  display: block;
+  text-indent: -9999px;
+}
+
+span.checked a:link, span.checked a:checked {
+  width: 120px;
+  height: 120px;
+  background: image(sprites/form-elements-sprite.png);
+}
+
+span.checked a:hover {
+  background-position: 0 -120px;
+}
+
 select {
   height: 100%;
   width: 100%;
