@@ -6,19 +6,23 @@
 </head>
 
 <body>
+  <form>
   <section>
-    <label class="text-input">text input</label>
-    <input type="text">
-    <label class="text-input ">text input w/ validation error</label>
-    <input type="text">
-     <br>please enter a valid username
+    <p>text input</p>
+    <label class="text-input"></label>
+    <input type="text" placeholder="placeholder text">
+    <p>text input w/ validation error</p>
+    <label class="text-input "></label>
+    <input type="text" placeholder="placeholder text">
+     <p id="enter-valid-message">please enter a valid username</p>
   </section>
   <section>
+    <p>select box</p>
     <select>
       <option>please select an option...</option>
     </select>
   </section>
-  <section>
+  <section id="multi-choice-dropdown">
     <p>select box - open</p>
     <select name="select-box-open">
       <option value="option1">option 1</option>
@@ -43,17 +47,6 @@
     <button id="not-submitted" type="submit">submit
     <button id="submitted" type="sumbit">submit
   </section>
-  
-
-  
-  </form>
-  <form novalidate class="form">
-    <label>inputs</label>
-    <input id="input-pri" type="checkbox">
-    <label class="labels" for="input-pri">
-      <div></div>
-    </label>
-  </form>
 </body>
 
 </html>
